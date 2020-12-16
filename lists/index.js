@@ -1,11 +1,11 @@
 const Stuff = require('./stuff')
 const FAQ = require('./faq')
-const projectDetails = require('./projectDetail')
+const ProjectDetails = require('./projectDetail')
 
 const loadLists = (keystone) => {
   Stuff(keystone)
   FAQ(keystone)
-  projectDetails(keystone)
+  ProjectDetails(keystone)
 }
 
 module.exports = loadLists
